@@ -1,0 +1,7 @@
+.venv/
+__pycache__/
+download/
+brick/
+*.pyc
+.DS_Store
+.dvc/tmp

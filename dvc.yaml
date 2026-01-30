@@ -1,0 +1,14 @@
+stages:
+  download:
+    cmd: python stages/01_download.py
+    deps:
+      - stages/01_download.py
+    outs:
+      - download/230106_frozen_metadata.csv.gz
+  build:
+    cmd: python stages/02_build.py
+    deps:
+      - stages/02_build.py
+      - download/230106_frozen_metadata.csv.gz
+    outs:
+      - brick/data.parquet

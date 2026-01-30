@@ -1,0 +1,13 @@
+{
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "dcterms": "http://purl.org/dc/terms/"
+  },
+  "@type": "DataDownload",
+  "name": "LOTUS: Natural Products Structure and Occurrence Database",
+  "url": "https://zenodo.org/records/7534071",
+  "dateAccessed": "2026-01-29",
+  "dcterms:source": "The LOTUS Initiative",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "citation": "Rutz, A., et al. (2022). The LOTUS initiative for open natural products research: knowledge management and deep learning to retrieve and clean biological and chemical data."
+}

@@ -1,0 +1,30 @@
+schema: '2.0'
+stages:
+  download:
+    cmd: python stages/01_download.py
+    deps:
+    - path: stages/01_download.py
+      hash: md5
+      md5: 4d8260c32ee2bcbd9ac249750323e411
+      size: 1476
+    outs:
+    - path: download/230106_frozen_metadata.csv.gz
+      hash: md5
+      md5: 324579ae4a4785bf1b50b532b0a00eec
+      size: 92979778
+  build:
+    cmd: python stages/02_build.py
+    deps:
+    - path: download/230106_frozen_metadata.csv.gz
+      hash: md5
+      md5: 324579ae4a4785bf1b50b532b0a00eec
+      size: 92979778
+    - path: stages/02_build.py
+      hash: md5
+      md5: 1e524f31ebc240c34d081332278bb73c
+      size: 1818
+    outs:
+    - path: brick/data.parquet
+      hash: md5
+      md5: ca45a33746b045331746511952fc0da5
+      size: 127567318

@@ -1,0 +1,64 @@
+{
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "cheminf": "http://semanticscience.org/resource/",
+    "obo": "http://purl.obolibrary.org/obo/"
+  },
+  "columns": [
+    {
+      "name": "smiles",
+      "@type": "cheminf:CHEMINF_000018",
+      "description": "Canonical SMILES string of the natural product",
+      "dataType": "string"
+    },
+    {
+      "name": "inchi",
+      "@type": "cheminf:CHEMINF_000113",
+      "description": "InChI string",
+      "dataType": "string"
+    },
+    {
+      "name": "inchikey",
+      "@type": "cheminf:CHEMINF_000059",
+      "description": "InChIKey hash",
+      "dataType": "string"
+    },
+    {
+      "name": "organism_name",
+      "@type": "obo:RO_0002162",
+      "description": "Name of the organism where the product occurs",
+      "dataType": "string"
+    },
+    {
+      "name": "ncbi_taxonomy_id",
+      "@type": "PropertyValue",
+      "description": "NCBI Taxonomy ID of the organism",
+      "dataType": "string"
+    },
+    {
+      "name": "doi",
+      "@type": "PropertyValue",
+      "description": "DOI of the reference publication",
+      "dataType": "string"
+    },
+    {
+      "name": "molecular_formula",
+      "@type": "cheminf:CHEMINF_000037",
+      "description": "Molecular formula",
+      "dataType": "string"
+    },
+    {
+      "name": "exact_mass",
+      "@type": "cheminf:CHEMINF_000216",
+      "description": "Exact mass",
+      "dataType": "float",
+      "unitCode": "Dalton"
+    },
+    {
+      "name": "xlogp",
+      "@type": "cheminf:CHEMINF_000251",
+      "description": "Predicted XLogP",
+      "dataType": "float"
+    }
+  ]
+}

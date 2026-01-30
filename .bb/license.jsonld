@@ -1,0 +1,8 @@
+{
+  "@context": {
+    "@vocab": "https://schema.org/"
+  },
+  "@type": "CreativeWork",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "usageInfo": "You are free to share and adapt the material for any purpose, even commercially, under the terms of attribution."
+}
