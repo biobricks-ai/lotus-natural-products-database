@@ -1,0 +1,264 @@
+{
+  "@context": {
+    "schema": "https://schema.org/",
+    "prov": "http://www.w3.org/ns/prov#"
+  },
+  "@type": "prov:Entity",
+  "schema:name": "lotus-natural-products-database validation report",
+  "prov:generatedAtTime": "2026-07-03T18:44:49Z",
+  "bb:validator": "tools/bb_validate.py",
+  "bb:verdict": "PASS",
+  "bb:summary": {
+    "n_parquet_files": 1,
+    "total_rows": 792364,
+    "total_bytes": 127928879,
+    "note": ""
+  },
+  "bb:deterministic_checks": [
+    {
+      "file": "data.parquet",
+      "path": "/mnt/raid2/biobricks/lotus-natural-products-database/brick/data.parquet",
+      "rows": 792364,
+      "cols": 39,
+      "bytes": 127928879,
+      "columns": [
+        {
+          "name": "structure_wikidata",
+          "type": "large_string"
+        },
+        {
+          "name": "inchikey",
+          "type": "large_string"
+        },
+        {
+          "name": "inchi",
+          "type": "large_string"
+        },
+        {
+          "name": "smiles",
+          "type": "large_string"
+        },
+        {
+          "name": "molecular_formula",
+          "type": "large_string"
+        },
+        {
+          "name": "exact_mass",
+          "type": "double"
+        },
+        {
+          "name": "xlogp",
+          "type": "double"
+        },
+        {
+          "name": "structure_smiles_2d",
+          "type": "large_string"
+        },
+        {
+          "name": "structure_cid",
+          "type": "large_string"
+        },
+        {
+          "name": "iupac_name",
+          "type": "large_string"
+        },
+        {
+          "name": "traditional_name",
+          "type": "large_string"
+        },
+        {
+          "name": "structure_stereocenters_total",
+          "type": "int64"
+        },
+        {
+          "name": "structure_stereocenters_unspecified",
+          "type": "int64"
+        },
+        {
+          "name": "structure_taxonomy_npclassifier_01pathway",
+          "type": "large_string"
+        },
+        {
+          "name": "structure_taxonomy_npclassifier_02superclass",
+          "type": "large_string"
+        },
+        {
+          "name": "structure_taxonomy_npclassifier_03class",
+          "type": "large_string"
+        },
+        {
+          "name": "structure_taxonomy_classyfire_chemontid",
+          "type": "large_string"
+        },
+        {
+          "name": "structure_taxonomy_classyfire_01kingdom",
+          "type": "large_string"
+        },
+        {
+          "name": "structure_taxonomy_classyfire_02superclass",
+          "type": "large_string"
+        },
+        {
+          "name": "structure_taxonomy_classyfire_03class",
+          "type": "large_string"
+        },
+        {
+          "name": "structure_taxonomy_classyfire_04directparent",
+          "type": "large_string"
+        },
+        {
+          "name": "organism_wikidata",
+          "type": "large_string"
+        },
+        {
+          "name": "organism_name",
+          "type": "large_string"
+        },
+        {
+          "name": "organism_taxonomy_gbifid",
+          "type": "large_string"
+        },
+        {
+          "name": "ncbi_taxonomy_id",
+          "type": "large_string"
+        },
+        {
+          "name": "organism_taxonomy_ottid",
+          "type": "large_string"
+        },
+        {
+          "name": "organism_taxonomy_01domain",
+          "type": "large_string"
+        },
+        {
+          "name": "organism_taxonomy_02kingdom",
+          "type": "large_string"
+        },
+        {
+          "name": "organism_taxonomy_03phylum",
+          "type": "large_string"
+        },
+        {
+          "name": "organism_taxonomy_04class",
+          "type": "large_string"
+        },
+        {
+          "name": "organism_taxonomy_05order",
+          "type": "large_string"
+        },
+        {
+          "name": "organism_taxonomy_06family",
+          "type": "large_string"
+        },
+        {
+          "name": "organism_taxonomy_07tribe",
+          "type": "large_string"
+        },
+        {
+          "name": "organism_taxonomy_08genus",
+          "type": "large_string"
+        },
+        {
+          "name": "organism_taxonomy_09species",
+          "type": "large_string"
+        },
+        {
+          "name": "organism_taxonomy_10varietas",
+          "type": "large_string"
+        },
+        {
+          "name": "reference_wikidata",
+          "type": "large_string"
+        },
+        {
+          "name": "doi",
+          "type": "large_string"
+        },
+        {
+          "name": "manual_validation",
+          "type": "large_string"
+        }
+      ],
+      "null_fraction": {
+        "structure_wikidata": 0.0,
+        "inchikey": 0.0,
+        "inchi": 0.0,
+        "smiles": 0.0,
+        "molecular_formula": 0.0,
+        "exact_mass": 0.0,
+        "xlogp": 5e-06,
+        "structure_smiles_2d": 0.0,
+        "structure_cid": 0.020053,
+        "iupac_name": 0.022858,
+        "traditional_name": 0.020151,
+        "structure_stereocenters_total": 0.0,
+        "structure_stereocenters_unspecified": 0.0,
+        "structure_taxonomy_npclassifier_01pathway": 0.021287,
+        "structure_taxonomy_npclassifier_02superclass": 0.050478,
+        "structure_taxonomy_npclassifier_03class": 0.069737,
+        "structure_taxonomy_classyfire_chemontid": 0.004396,
+        "structure_taxonomy_classyfire_01kingdom": 0.004396,
+        "structure_taxonomy_classyfire_02superclass": 0.004396,
+        "structure_taxonomy_classyfire_03class": 0.012638,
+        "structure_taxonomy_classyfire_04directparent": 0.004396,
+        "organism_wikidata": 0.0,
+        "organism_name": 0.0,
+        "organism_taxonomy_gbifid": 0.096409,
+        "ncbi_taxonomy_id": 0.157141,
+        "organism_taxonomy_ottid": 0.01415,
+        "organism_taxonomy_01domain": 0.01415,
+        "organism_taxonomy_02kingdom": 0.083287,
+        "organism_taxonomy_03phylum": 0.023596,
+        "organism_taxonomy_04class": 0.090023,
+        "organism_taxonomy_05order": 0.032543,
+        "organism_taxonomy_06family": 0.035836,
+        "organism_taxonomy_07tribe": 0.544399,
+        "organism_taxonomy_08genus": 0.019591,
+        "organism_taxonomy_09species": 0.056817,
+        "organism_taxonomy_10varietas": 0.994916,
+        "reference_wikidata": 0.0,
+        "doi": 0.0,
+        "manual_validation": 0.999735
+      },
+      "all_null_columns": [],
+      "sample_rows": 50000,
+      "sample_dup_fraction": 0.0,
+      "sample_constant_columns": [],
+      "smiles_column": "smiles",
+      "smiles_valid_fraction_sampled": 1.0,
+      "smiles_sampled": 2000,
+      "warnings": [],
+      "status": "PASS"
+    }
+  ],
+  "bb:datapackage_conformance": null,
+  "bb:web_validation": {
+    "bb:checked_at": "2026-07-03T18:45:00Z",
+    "bb:method": "WebSearch",
+    "bb:confidence": "high",
+    "bb:verdict": "CONSISTENT",
+    "bb:expected_scale": "LOTUS disseminates 750,000+ referenced structure-organism pairs, 290,000+ unique chemical structures, 40,000+ distinct organisms, 75,000+ references (eLife 2022 / Zenodo).",
+    "bb:observed": "792,364 rows in brick/data.parquet, each a referenced structure-organism occurrence pair; SMILES valid fraction 1.0 on 2000-row sample.",
+    "bb:expected_columns": [
+      "smiles",
+      "organism/taxonomy",
+      "reference/doi"
+    ],
+    "bb:observed_columns_present": [
+      "smiles",
+      "inchi",
+      "inchikey",
+      "organism_name",
+      "organism_taxonomy_*",
+      "ncbi_taxonomy_id",
+      "reference_wikidata",
+      "doi"
+    ],
+    "bb:notes": "Row count 792k is consistent with the documented 750k+ referenced structure-organism pairs. Data sourced from Zenodo record 7534071 (230106_frozen_metadata.csv.gz).",
+    "bb:sources": [
+      "https://elifesciences.org/articles/70780",
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC9135406/",
+      "https://doi.org/10.5281/zenodo.5794597"
+    ]
+  }
+}

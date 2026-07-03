@@ -5,3 +5,4 @@ brick/
 *.pyc
 .DS_Store
 .dvc/tmp
+*.log
